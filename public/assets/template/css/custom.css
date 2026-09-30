@@ -1,0 +1,38 @@
+/* TABLE - CSS IN POP UP*/
+.record-display ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: none;
+}
+.record-display .badge {
+    line-height: 1.5;
+    padding: 5px 10px;
+    width: fit-content;
+}
+.badge {
+    font-size: 10px;
+    padding: 5px 10px;
+}
+.card-bg-1 {
+    background: var(--employee-card-bg-1);
+}
+.card-bg-2 {
+    background: var(--employee-card-bg-2);
+}
+.card-bg-3 {
+    background: var(--employee-card-bg-3);
+}
+.card-bg-4 {
+    background: var(--employee-card-bg-4);
+}
+.dashboard-heading {
+    font-size: 14px !important;
+    color: #303030;
+}
+
+.nav-link.active {
+    color: #ffc107 !important;
+    /* font-weight: bold;
+    font-size: 14px !important; */
+}
